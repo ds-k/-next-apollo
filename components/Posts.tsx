@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,7 +31,7 @@ const Posts = ({ posts }: Props) => {
       {postList.map((post) => {
         return (
           <Link
-            href={`/${post.title}`}
+            href={`/post/${post._id}`}
             key={post._id}
             className="flex flex-col w-full "
           >
