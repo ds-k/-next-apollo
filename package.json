@@ -12,7 +12,9 @@
   "dependencies": {
     "@apollo/client": "^3.7.7",
     "@h6s/calendar": "^1.1.0-alpha.2",
+    "@headlessui/react": "^1.7.13",
     "@next/font": "13.1.6",
+    "@radix-ui/react-tabs": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.2",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
